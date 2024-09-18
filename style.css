@@ -46,14 +46,14 @@ footer {
 
 /*nav section*/
 nav {
-  background-color: rgba(83, 55, 55, 0.8);
+  background-color: rgba(72, 40, 26, 0.8);
   position: sticky;
   top: 0;
   padding: 10px;
 }
 nav ul li {
-  border: 1px solid;
-  border-radius: 5px;
+  /* border: 1px solid;
+  border-radius: 5px; */
   display: inline-block;
   width: 100px;
   height: 40px;
@@ -62,7 +62,7 @@ nav ul li {
   transition: 1s;
 }
 nav ul li:hover {
-  box-shadow: 2px 3px 3px 2px #48281a;
+  border-bottom: 2px solid #f0e1c5;
 }
 nav ul li a {
   text-decoration: none;
