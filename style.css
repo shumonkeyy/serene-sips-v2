@@ -11,6 +11,18 @@ body {
   color: #48281a;
 }
 /*header section*/
+.first-background {
+  background-image: linear-gradient(
+      rgba(239, 234, 197, 0.3),
+      rgba(239, 234, 197, 0.3)
+    ),
+    url(images/2f435c0f523b61e21941f9a3e561ad90.jpg);
+  background-blend-mode: muliply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: none;
+}
 #header,
 #our-menu,
 #about-us,
@@ -18,9 +30,10 @@ body {
 footer {
   /* border: 3px solid; */
   width: 90%;
-  margin: 0px 10px 10px;
+  margin: auto;
   padding: 50px;
 }
+
 #header h1 {
   font-family: "Playfair Display SC", serif;
   font-weight: 900;
@@ -43,10 +56,13 @@ footer {
   text-decoration: none;
   border-radius: 5px;
 }
+.animate__backInDown {
+  --animate-duration: 2s;
+}
 
 /*nav section*/
 nav {
-  background-color: rgba(72, 40, 26, 0.8);
+  background-color: rgba(72, 40, 26, 0.9);
   position: sticky;
   top: 0;
   padding: 10px;
@@ -134,6 +150,11 @@ nav ul li a {
   font-weight: 400;
 }
 
+.btn-order:hover {
+  background-color: #f0e1c5;
+  color: #48281a;
+  transition: 1s;
+}
 /*about us section*/
 #about-us p,
 #contact-us p {
